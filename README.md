@@ -1,2 +1,3 @@
 # Salary-Increament
-Increase salary by 5000 if current salary is greater than 25000
+# Problem Statement : Increase salary by 5000 if current salary is greater than 25000
+# by using Javascript
