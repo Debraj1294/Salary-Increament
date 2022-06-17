@@ -24,7 +24,11 @@ for( i = 0; i < emp.length; i++){
     if(emp[i].salary>25000){
         emp[i].salary = emp[i].salary + 5000
     }
-} // increasing salary by 5000 if employee's salary greater than 25000
+    else{
+        emp[i].salary = emp[i].salary + 2000
+    }
+} // increasing salary by 5000 if employee's salary greater than 25000 and by 2000 if salary less than 25000
+
 
 console.log(emp)
 
